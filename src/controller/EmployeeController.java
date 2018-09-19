@@ -48,8 +48,10 @@ public class EmployeeController {
 
 		return mv;
 	}
+
 	@RequestMapping("searchLazy")
 	public ModelAndView searchLazy(Employee condition, Integer ye) {
+		String str = "";
 		ModelAndView mv = new ModelAndView(path + "list");
 		if (ye == null) {
 			ye = 1;
@@ -66,8 +68,7 @@ public class EmployeeController {
 
 		return mv;
 	}
-	
-	
+
 	@RequestMapping("searchAll")
 	public ModelAndView searchAll() {
 		ModelAndView mv = new ModelAndView(path + "list");

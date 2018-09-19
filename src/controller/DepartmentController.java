@@ -19,7 +19,7 @@ public class DepartmentController {
 	@Autowired
 	DepartmentService depService;
 
-	@RequestMapping("search")
+	@RequestMapping("search") 
 	public ModelAndView search(Department condition, Integer ye) {
 		ModelAndView mv = new ModelAndView(path + "list");
 		if (ye == null) {

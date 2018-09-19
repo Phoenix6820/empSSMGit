@@ -51,7 +51,7 @@ public class EmployeeController {
 
 	@RequestMapping("searchLazy")
 	public ModelAndView searchLazy(Employee condition, Integer ye) {
-		String str = "ds123";
+		String str = "ds123dd";
 		ModelAndView mv = new ModelAndView(path + "list");
 		if (ye == null) {
 			ye = 1;

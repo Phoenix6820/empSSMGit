@@ -27,7 +27,7 @@
 				<div class="col-sm-10">
 					<input type="text" class="form-control" name="name"
 						placeholder="请输入名称">
-				</div>
+				</div> 
 			</div>
 			
 

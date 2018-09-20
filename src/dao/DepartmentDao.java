@@ -10,7 +10,7 @@ public interface DepartmentDao {
 
 	int searchCount(Department condition);
 
-	List<Department> search(@Param("dep") Department condition, @Param("begin") int begin, @Param("size") int size);
+	List<Department> search(@Param("dep") Department condition, @Param("begin") int begin, @Param("size") int size); 
 
 	Department searchById(Integer id);
 
